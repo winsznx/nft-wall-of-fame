@@ -76,7 +76,7 @@ function NFTModal({ nft, walletAddress, onClose }) {
               <button
                 onClick={onClose}
                 aria-label="Close"
-                className="ml-4 text-gray-300 hover:text-white rounded-full p-2"
+                className="absolute top-4 right-4 text-gray-300 hover:text-white rounded-full p-2 z-50 text-2xl"
               >
                 ✕
               </button>
@@ -404,7 +404,7 @@ function App() {
       {/* Footer */}
       <footer className="border-t border-purple-500/30 mt-20">
         <div className="container mx-auto px-4 py-6 text-center text-gray-400 text-sm">
-          <p>2025 © @winsznx</p>
+          <p>2025 @winsznx</p>
         </div>
       </footer>
 
