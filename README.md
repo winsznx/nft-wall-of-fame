@@ -1,20 +1,56 @@
-<<<<<<< HEAD
-# React + Vite
+# 🖼️ NFT Wall of Fame
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek Web3-powered gallery that lets anyone view NFTs owned by any wallet address. Built with Next.js, RainbowKit, Wagmi, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[https://nft-wall-of-fame.vercel.app](https://nft-wall-of-fame.vercel.app)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
+- [Next.js](https://nextjs.org/)
+- [RainbowKit](https://www.rainbowkit.com/)
+- [Wagmi](https://wagmi.sh/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [OpenSea API](https://docs.opensea.io/reference/api-overview)
 
-## React Compiler
+## 📦 Features
+- Connect wallet via RainbowKit
+- Enter any wallet address to fetch NFTs
+- Responsive gallery layout
+- Clean UI with Tailwind styling
+- Built for speed and simplicity
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧠 How It Works
+1. Connect your wallet (optional)
+2. Enter any Ethereum wallet address
+3. Click “Fetch NFTs”
+4. View the NFT gallery powered by OpenSea
 
-## Expanding the ESLint configuration
+## 🛠️ Local Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# nft-wall-of-fame
->>>>>>> 6fda142f5162890fccb4bd76a64f8ee4cdcd81f2
+```bash
+git clone https://github.com/winsznx/nft-wall-of-fame.git
+cd nft-wall-of-fame
+npm install
+npm run dev
+🔐 Environment Variables
+Create a .env file in the root:
+
+env
+NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=your_project_id
+Get your project ID from WalletConnect Cloud
+
+📸 Screenshots
+(Add screenshots here if you want)
+
+🧑‍💻 Author
+Built by @winsznx Showcased on Talent Protocol 
+
+📄 License
+MIT
+
+Code
+
+git add README.md
+git commit -m "Add README for NFT Wall of Fame"
+git push origin main
+Let me know if you want help designing a logo, adding screenshots, or writing a Farcast
