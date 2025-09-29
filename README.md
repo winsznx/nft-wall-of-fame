@@ -35,6 +35,8 @@ npm run dev
 🔐 Environment Variables
 Create a .env file in the root:
 
+
+
 env
 NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=your_project_id
 Get your project ID from WalletConnect Cloud
