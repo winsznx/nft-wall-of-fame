@@ -380,25 +380,40 @@ function App() {
         )}
 
         {/* Empty / initial state */}
-        {!loading && nfts.length === 0 && (
-          <div className="max-w-4xl mx-auto grid md:grid-cols-3 gap-6">
-            <div className="bg-white/5 rounded-xl p-6 border border-white/10">
-              <div className="text-4xl mb-4">🔗</div>
-              <h3 className="text-xl font-semibold mb-2">Connect Wallet</h3>
-              <p className="text-gray-400 text-sm">View your NFTs instantly</p>
-            </div>
-            <div className="bg-white/5 rounded-xl p-6 border border-white/10">
-              <div className="text-4xl mb-4">🔍</div>
-              <h3 className="text-xl font-semibold mb-2">Explore Wallets</h3>
-              <p className="text-gray-400 text-sm">Discover any NFT collection</p>
-            </div>
-            <div className="bg-white/5 rounded-xl p-6 border border-white/10">
-              <div className="text-4xl mb-4">🌐</div>
-              <h3 className="text-xl font-semibold mb-2">Multi-Chain</h3>
-              <p className="text-gray-400 text-sm">Ethereum, Polygon & more</p>
-            </div>
-          </div>
-        )}
+{!loading && nfts.length === 0 && (
+  <div className="max-w-4xl mx-auto grid md:grid-cols-3 gap-6">
+    {/* Connect Wallet */}
+    <button
+      onClick={handleConnectWallet}
+      className="bg-white/5 rounded-xl p-6 border border-white/10 hover:bg-white/10 transition-all flex flex-col items-center focus:outline-none focus:ring-2 focus:ring-purple-500"
+    >
+      <div className="text-4xl mb-4">🔗</div>
+      <h3 className="text-xl font-semibold mb-2">Connect Wallet</h3>
+      <p className="text-gray-400 text-sm text-center">View your NFTs instantly</p>
+    </button>
+
+    {/* Explore Wallets */}
+    <button
+      onClick={() => document.getElementById('wallet-search')?.scrollIntoView({ behavior: 'smooth' })}
+      className="bg-white/5 rounded-xl p-6 border border-white/10 hover:bg-white/10 transition-all flex flex-col items-center focus:outline-none focus:ring-2 focus:ring-purple-500"
+    >
+      <div className="text-4xl mb-4">🔍</div>
+      <h3 className="text-xl font-semibold mb-2">Explore Wallets</h3>
+      <p className="text-gray-400 text-sm text-center">Discover any NFT collection</p>
+    </button>
+
+    {/* Multi-Chain */}
+    <button
+      onClick={() => alert('Multi-Chain support coming soon!')}
+      className="bg-white/5 rounded-xl p-6 border border-white/10 hover:bg-white/10 transition-all flex flex-col items-center focus:outline-none focus:ring-2 focus:ring-purple-500"
+    >
+      <div className="text-4xl mb-4">🌐</div>
+      <h3 className="text-xl font-semibold mb-2">Multi-Chain</h3>
+      <p className="text-gray-400 text-sm text-center">Ethereum, Polygon & more</p>
+    </button>
+  </div>
+)}
+
       </main>
 
       {/* Footer */}
