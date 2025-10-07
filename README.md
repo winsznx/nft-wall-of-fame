@@ -1,8 +1,8 @@
-# 🖼️ NFT Wall of Fame
+# NFT Wall of Fame
 
 A sleek Web3-powered gallery that lets anyone view NFTs owned by any wallet address. Built with Next.js, RainbowKit, Wagmi, and Tailwind CSS.
 
-## 🚀 Live Demo
+## Live Demo
 [https://nft-wall-of-fame.vercel.app](https://nft-wall-of-fame.vercel.app)  
 
 ## 🔧 Tech Stack
@@ -12,14 +12,14 @@ A sleek Web3-powered gallery that lets anyone view NFTs owned by any wallet addr
 - [Tailwind CSS](https://tailwindcss.com/)
 - [OpenSea API](https://docs.opensea.io/reference/api-overview)
 
-## 📦 Features
+## Features
 - Connect wallet via RainbowKit
 - Enter any wallet address to fetch NFTs
 - Responsive gallery layout
 - Clean UI with Tailwind styling
 - Built for speed and simplicity
 
-## 🧠 How It Works
+## How It Works
 1. Connect your wallet (optional)
 2. Enter any Ethereum wallet address
 3. Click “Fetch NFTs”
@@ -32,7 +32,7 @@ git clone https://github.com/winsznx/nft-wall-of-fame.git
 cd nft-wall-of-fame
 npm install
 npm run dev
-🔐 Environment Variables
+Environment Variables
 Create a .env file in the root:
 
 
@@ -41,11 +41,11 @@ env
 NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID=your_project_id
 Get your project ID from WalletConnect Cloud
 
-📸 Screenshots
+Screenshots
 (Add screenshots here if you want)
 
-🧑‍💻 Author
-Built by @winsznx Showcased on Talent Protocol 
+ Author
+Built by @winsznx  
 
 📄 License
 MIT
