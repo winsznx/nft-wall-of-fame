@@ -45,7 +45,7 @@ Screenshots
 (Add screenshots here if you want)
 
  Author
-Built by @winsznx  
+Built by @winsznx n 
 
 📄 License
 MIT
